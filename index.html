@@ -3,22 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playlist</title>
+    <title>Guitarras | Bunker</title>
+    <meta name="description" content="Descubre nuestra colección de guitarras y vuélvete un artista">
+    <link rel="icon" type="image/png" href="img/bunkerahorasi/favicon-32x32.png">
 </head>
-<body>
-    <h1>Inicio</h1>
-    <table border="1">
-        <tr>
-            <td><a href="">Inicio</a></td>
-            <td><a href="paginas/ia/frank.html">Frank</a></td>
-            <td><a href="paginas/soporte/soporte.html">Soporte</a></td>
-            <td><a href="paginas/apoyo.html">Apoyo</a></td>
-            <td><a href="paginas/filosofia.html">Filosofia</a></td>
-        </tr>
-    </table>
-</body>
-</html>
+<body style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; overflow-x: hidden; margin: 0;">
+    
+    <header style="display: flex; align-items: center; justify-content: space-around; padding: 15px; background-color: white; flex-wrap: wrap; gap:1rem">
+
+        <a href="index.html">
+            <img src="img/BUNKER.png" width="130" alt="Logo Bunker">
+        </a>
+
+        <nav style="background-color: #D8D2F0; padding: 15px; display: flex; flex-wrap: wrap; justify-content: center;">
+            <a href="index.html" style="text-decoration: none; color: #4A3B91; margin: 10px;">Inicio</a>
+            <a href="#seccion2" style="text-decoration: none; color: #4A3B91; margin: 10px;">Ropa</a>
+            <a href="#seccion3" style="text-decoration: none; color: #4A3B91; margin: 10px;">Guitarras</a>
+            <a href="viento.html" style="text-decoration: none; color: #4A3B91; margin: 10px;">Viento</a>
+            <a href="#seccion3" style="text-decoration: none; color: #4A3B91; margin: 10px;">Consolas</a>
+            <a href="#seccion3" style="text-decoration: none; color: #4A3B91; margin: 10px;">Sobre nosotros</a>
+        </nav>
+        <form>
+            <label for="nombre">¿Qué guitarra buscas?</label>
+            <input type="text" placeholder="Buscar..."
+                   style="width: 180px; padding: 10px; border: 1px solid gray;">
+        </form>
+    </header>
+
+    <main style="width: 100%; max-width: 1400px; margin:0 auto; padding: 2rem; box-sizing: border-box;">
+        <article style="display: grid; grid-template-columns: minmax(150px, 1fr) minmax(300px, 850px) minmax(150px, 1fr); align-items: center; gap:1.5rem; width: 100%;margin-bottom: 4rem; box-sizing: border-box;">
+            <a href="#" aria-label="Guitarras-gibson" style="justify-self: start; display: inline-block">
+                <img src="img/guitarras/gibson-logo.webp" width="180" height="75" style="display: block; width: 100%; max-width: 180px; height: auto;">
+            </a>
+            <figure style="grid-column: 2; justify-self: center; margin: 0; width: 100%; max-width: 850px; box-shadow: 0 12px 30px rgba(0,0,0,0.18); border-radius: 12px; overflow: hidden; background-color: #000000; box-sizing: border-box;">
+                <video controls poster="img/guitarras/gibson-poster.jpg" style="width: 100%; height: auto; display: block; border-radius: 12px;">
+                    <source src="video/GIBSON_demo.mp4" type="video/mp4">
+                    Tu navegador no soporta el reproductor de video HTML5.
+                </video>
+            </figure>
+            <a href="#" style="grid-column: 3; justify-self: end; display:inline-flex; align-items: center; gap:0.5rem; background-color: #e60000; color:#ffff; text-decoration: none; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-weight: 600; font-size: 1rem; padding:0.75rem; border-radius: 50px; box-shadow: 0 4px 12px rgba(230,0,0,0.3); white-space: nowrap;">
+                <span style="font-size: 1.2rem;">👍</span>Me gusta
+            </a>
+        </article>
+    </main>
+
+    <footer style="display: flex; flex-wrap: wrap; background-color: #D8D2F0; padding: 20px; text-align: center; justify-content: space-around;">
+
+        
+        <ul style="width: 200px; list-style: none; padding: 0; margin:10px">
+            <li><strong>Cabecera 1</strong></li>
+            <li>© Copyright 2026</li>
+            <li><a href="#" style="text-decoration: none;">Privacy-Terms</a></li>
         </ul>
-    </table>
+    
+
+        <ul style="width: 200px; list-style: none; padding: 0; margin:10px">
+            <li><strong>Cabecera 2</strong></li>
+            <li><a href="#" style="text-decoration: none;">Link 1</a></li>
+            <li><a href="#" style="text-decoration: none;">Link 2</a></li>
+            <li><a href="#" style="text-decoration: none;">Link 3</a></li>
+        </ul>
+
+        <ul style="width: 200px; list-style: none; padding: 0; margin:10px">
+            <li><strong>Cabecera 3</strong></li>
+            <li><a href="#" style="text-decoration: none;">Link 1</a></li>
+            <li><a href="#" style="text-decoration: none;">Link 2</a></li>
+            <li><a href="#" style="text-decoration: none;">Link 3</a></li>
+        </ul>
+
+        <ul style="width: 200px; list-style: none; padding: 0; margin:10px">
+            <li><strong>Cabecera 4</strong></li>
+            <li><a href="#" style="text-decoration: none;">Link 1</a></li>
+            <li><a href="#" style="text-decoration: none;">Link 2</a></li>
+            <li><a href="#" style="text-decoration: none;">Link 3</a></li>
+        </ul>
+
+    </footer>
+    
 </body>
 </html>
